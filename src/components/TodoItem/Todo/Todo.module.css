@@ -1,0 +1,33 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 16px;
+}
+
+.text {
+  max-width: 235px;
+}
+
+.textTitle {
+  display: inline-block;
+  width: 235px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
+
+.textDescription {
+  display: inline-block;
+  width: 235px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.crossed {
+  text-decoration: line-through;
+}

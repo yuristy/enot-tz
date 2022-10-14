@@ -1,0 +1,47 @@
+.itemWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 79px;
+  background: #282828;
+  box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.15), -8px -8px 20px rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  padding: 0 20px;
+  transition: min-height 0.15s ease-out;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.checkbox {
+  background-color: #F4F4F4;
+}
+
+.open {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 16px;
+  min-height: 204px;
+  transition: min-height 0.25s ease-in;
+}
+
+.itemHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.leftBlock {
+  display: flex;
+  align-items: center;
+}
