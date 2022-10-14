@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/enot-tz/static/css/main.92db650e.css",
+    "main.js": "/enot-tz/static/js/main.2c2e5857.js",
+    "index.html": "/enot-tz/index.html",
+    "main.92db650e.css.map": "/enot-tz/static/css/main.92db650e.css.map",
+    "main.2c2e5857.js.map": "/enot-tz/static/js/main.2c2e5857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92db650e.css",
+    "static/js/main.2c2e5857.js"
+  ]
+}
