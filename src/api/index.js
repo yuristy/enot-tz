@@ -5,7 +5,7 @@ import { PRIORITY_COLORS } from '../utils/constants';
 import { chunckedArray } from '../utils';
 
 export const getTodos = async () => {
-  const { data } = await axios.get('http://jsonplaceholder.typicode.com/todos?_start=0&_limit=21')
+  const { data } = await axios.get('https://jsonplaceholder.typicode.com/todos?_start=0&_limit=21')
   const splittedArray = chunckedArray(data, 3)
     .map((todos, index) => {
       return {
