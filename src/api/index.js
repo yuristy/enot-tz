@@ -19,6 +19,6 @@ export const getTodos = async () => {
 }
 
 export const fetchNews = async () => {
-  const { data } = await axios('https://newsapi.org/v2/everything?q=apple&from=2022-10-13&to=2022-10-13&sortBy=popularity&pageSize=1&apiKey=a7f4ae8cef014ab4813853f87882be83');
+  const { data } = await axios('https://saurav.tech/NewsAPI/top-headlines/category/health/us.json');
   return data.articles[0];
 };
