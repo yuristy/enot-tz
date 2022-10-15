@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/enot-tz/static/css/main.92db650e.css",
-    "main.js": "/enot-tz/static/js/main.f5f1f499.js",
+    "main.js": "/enot-tz/static/js/main.9c09f168.js",
     "index.html": "/enot-tz/index.html",
     "main.92db650e.css.map": "/enot-tz/static/css/main.92db650e.css.map",
-    "main.f5f1f499.js.map": "/enot-tz/static/js/main.f5f1f499.js.map"
+    "main.9c09f168.js.map": "/enot-tz/static/js/main.9c09f168.js.map"
   },
   "entrypoints": [
     "static/css/main.92db650e.css",
-    "static/js/main.f5f1f499.js"
+    "static/js/main.9c09f168.js"
   ]
 }
